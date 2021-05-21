@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MenuMaker.Back.Common\MenuMaker.Back.Common.csproj" />
     <ProjectReference Include="..\MenuMaker.Back.Models\MenuMaker.Back.Models.csproj" />
     <ProjectReference Include="..\MenuMaker.Back.Services\MenuMaker.Back.Services.csproj" />
